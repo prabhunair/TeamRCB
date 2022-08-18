@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Pass: Team has only 4 foregin players]]>
+    </line>
+    <line>
+      <![CDATA[Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Pass: Team has  wicket keeper]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-18T16:06:46 IST" name="Suite" finished-at="2022-08-18T16:06:48 IST" duration-ms="2569">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T16:06:46 IST" name="Test" finished-at="2022-08-18T16:06:48 IST" duration-ms="2569">
+      <class name="testCases.TestValidate">
+        <test-method signature="tc1_validateForeignPlayers()[pri:1, instance:testCases.TestValidate@1b6e1eff]" started-at="2022-08-18T16:06:46 IST" name="tc1_validateForeignPlayers" description="Validate that team has only 4 foreign players" finished-at="2022-08-18T16:06:48 IST" duration-ms="2205" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started]]>
+            </line>
+            <line>
+              <![CDATA[Test Pass: Team has only 4 foregin players]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1_validateForeignPlayers -->
+        <test-method signature="tc2_validateWicketKeeper()[pri:2, instance:testCases.TestValidate@1b6e1eff]" started-at="2022-08-18T16:06:48 IST" name="tc2_validateWicketKeeper" description="validate that there is at least one wicket keeper" finished-at="2022-08-18T16:06:48 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started]]>
+            </line>
+            <line>
+              <![CDATA[Test Pass: Team has  wicket keeper]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2_validateWicketKeeper -->
+      </class> <!-- testCases.TestValidate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
